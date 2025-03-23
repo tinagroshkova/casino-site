@@ -1,0 +1,34 @@
+.mobileFooter {
+  background-color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 15rem;
+  padding: 20px;
+  text-align: center;
+}
+
+.footerList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerItem {
+  margin: 1.25rem 0;
+}
+
+.footerItem a {
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.footerItem a:hover {
+  text-decoration: underline;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+}

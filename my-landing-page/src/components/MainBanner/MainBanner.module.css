@@ -1,0 +1,53 @@
+.heroWrapper {
+  position: relative;
+  width: 100%;
+}
+
+
+.socialLinks {
+  display: flex;
+  flex-direction: column;
+  background: var(--secondary);
+  position: absolute;
+  top: 2rem;
+  right: 0;
+  z-index: 1;
+}
+
+.socialLinks a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 3rem;
+  transition: color 0.3s ease;
+}
+
+.socialLinks a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 2rem;
+  transition: color 0.3s ease;
+}
+
+.socialLinks a + a {
+  border-top: 1px solid var(--text-color-inverted);
+}
+
+@media (min-width: 480px) {
+  .socialLinks {
+    top: 5rem;
+  }
+  .socialLinks a {
+    height: 4rem;
+    width: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .socialLinks {
+    top: 10rem;
+  }
+}

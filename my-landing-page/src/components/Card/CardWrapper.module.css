@@ -1,0 +1,21 @@
+.cardWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .cardWrapper {
+        max-width: 1000px;
+        min-height: 750px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1520px) {
+    .cardWrapper {
+        max-width: 100%;
+    }
+}

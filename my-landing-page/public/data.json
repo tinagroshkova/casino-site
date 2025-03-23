@@ -1,0 +1,202 @@
+{
+  "banners": [
+    {
+      "image": "https://images.pexels.com/photos/7594348/pexels-photo-7594348.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "heroTitle": "Your <strong>Best Gaming Experience</strong>"
+    },
+    {
+      "image": "https://images.pexels.com/photos/3279691/pexels-photo-3279691.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "heroTitle": "Your <strong>Best Gaming Experience</strong>"
+    },
+    {
+      "image": "https://images.pexels.com/photos/7594254/pexels-photo-7594254.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "heroTitle": "Your <strong>Best Gaming Experience</strong>"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "heading": "News",
+      "date": "2025-07-15, Las Vegas, NV",
+      "image": "https://images.pexels.com/photos/2631067/pexels-photo-2631067.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "title": "World Poker Championship",
+      "description": "The World Poker Championship is set to bring the most skilled players together for a high-stakes showdown. With a record-breaking prize pool, this event promises excitement, strategy, and unforgettable moments. \n\n'You don’t stop playing because you get old, you get old because you stop playing.' – Doyle Brunson",
+      "icon": "FaRegStar"
+    },
+    {
+      "id": 2,
+      "heading": "Events",
+      "date": "2025-09-10, Gaming Arena, Monte Carlo, Monaco",
+      "image": "https://images.pexels.com/photos/7594352/pexels-photo-7594352.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "title": "High Roller Tournament",
+      "description": "Experience the thrill of high-stakes poker in the stunning Monte Carlo Casino. This exclusive tournament attracts the elite players who compete for millions in prize money under the sparkling chandeliers of one of the world's most prestigious casinos. \n\n'In gambling, the many must lose so that the few may win.' – George Bernard Shaw",
+      "icon": "FaRegCheckCircle"
+    },
+    {
+      "id": 3,
+      "heading": "Press Release",
+      "date": "2025-11-05, Macau, China",
+      "image": "https://images.pexels.com/photos/7594255/pexels-photo-7594255.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "title": "The King of Casino Games",
+      "description": "Baccarat has always been a favorite among high rollers, and Macau's Grand Championship takes it to another level. A fusion of tradition, luck, and strategy, this event attracts top players from around the world to compete for glory. \n\n'Luck is what happens when preparation meets opportunity.' – Seneca",
+      "icon": "FaRegLightbulb"
+    }
+  ],
+  "navItems": {
+    "left": [
+      {
+        "title": "R-line",
+        "dropdown": [
+          {
+            "title": "Premier R4"
+          },
+          {
+            "title": "Premier R5"
+          },
+          {
+            "title": "Premier R6"
+          }
+        ]
+      },
+      {
+        "title": "S-line"
+      },
+      {
+        "title": "T-line"
+      },
+      {
+        "title": "Sbg"
+      }
+    ],
+    "right": [
+      {
+        "title": "News & Events"
+      },
+      {
+        "title": "About Us"
+      },
+      {
+        "title": "Contact Us"
+      },
+      {
+        "title": "EN",
+        "image": "https://www.svgrepo.com/show/405643/flag-for-flag-united-kingdom.svg",
+        "dropdown": [
+          {
+            "title": "FR",
+            "image": "https://www.svgrepo.com/show/405451/flag-for-flag-clipperton-island.svg"
+          },
+          {
+            "title": "DE",
+            "image": "https://www.svgrepo.com/show/405490/flag-for-flag-germany.svg"
+          }
+        ]
+      }
+    ]
+  },
+  "products": [
+    {
+      "heading": "R-line",
+      "image": "https://images.pexels.com/photos/7594251/pexels-photo-7594251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "heading": "S-line",
+      "image": "https://images.pexels.com/photos/9398107/pexels-photo-9398107.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "heading": "T-line",
+      "image": "https://images.pexels.com/photos/29825629/pexels-photo-29825629/free-photo-of-vibrant-slot-machines-in-casino-interior.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  ],
+  "mainProduct": [
+    {
+      "model": "Octupus",
+      "description": "Server Based Gaming",
+      "image": "https://images.pexels.com/photos/30516010/pexels-photo-30516010/free-photo-of-close-up-of-casino-slot-machine-interface.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "image": "https://images.pexels.com/photos/24643930/pexels-photo-24643930/free-photo-of-a-casino-on-a-luxurious-cruise-ship.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  ],
+  "footerItems": [
+    {
+      "title": "R-line",
+      "subitems": [
+        {
+          "title": "Premier R4"
+        },
+        {
+          "title": "Premier R5"
+        },
+        {
+          "title": "Premier R6"
+        }
+      ]
+    },
+    {
+      "title": "S-line",
+      "subitems": [
+        {
+          "title": "S R4"
+        },
+        {
+          "title": "S R5"
+        },
+        {
+          "title": "S R5"
+        },
+        {
+          "title": "S R6"
+        }
+      ]
+    },
+    {
+      "title": "T-line",
+      "subitems": [
+        {
+          "title": "T R4"
+        },
+        {
+          "title": "T R5"
+        },
+        {
+          "title": "T R6"
+        }
+      ]
+    },
+    {
+      "title": "Sbg",
+      "subitems": [
+        {
+          "title": "Sbg 14"
+        },
+        {
+          "title": "Sbg 15"
+        },
+        {
+          "title": "Sbg 16"
+        }
+      ]
+    },
+    {
+      "title": "Company",
+      "subitems": [
+        {
+          "title": "News & Events"
+        },
+        {
+          "title": "About Us"
+        },
+        {
+          "title": "Contact Us"
+        },
+        {
+          "title": "Careers"
+        }
+      ]
+    },
+    {
+      "title": "Social Networks"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+.dropdownItem+.dropdownItem {
+  border-top: 1px solid var(--secondary);
+}
+
+.dropdownItem {
+  padding: 1rem;
+  text-transform: capitalize;
+  margin-left: 1rem;
+}
+
+.dropdownItem a {
+  display: flex;
+  align-items: center;
+}
+
+.navImage {
+  height: 2.25rem;
+  width: auto;
+  margin: 0 0.5rem;
+}

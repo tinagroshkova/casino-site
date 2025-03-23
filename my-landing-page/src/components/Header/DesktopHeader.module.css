@@ -1,0 +1,141 @@
+.header {
+  width: 100%;
+  height: var(--header-height);
+  background: var(--primary);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoImage {
+  height: 2.75rem;
+  width: auto;
+  margin: 0 2.5rem;
+}
+
+.navContainer,
+.navList {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.navContainer {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.firstList {
+  margin-left: 3.5rem;
+}
+
+.firstList ul li {
+  text-transform: capitalize;
+  margin-left: 1rem;
+}
+
+.secondList {
+  justify-content: flex-end;
+  margin-right: 3.5rem;
+}
+
+.secondList .navItem+.navItem::before {
+  content: "";
+  background: rgba(255, 255, 255, 0.3);
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  z-index: 11;
+  height: 2rem;
+  width: 1px;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  transition: background 0.3s ease-in-out;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: var(--main-nav-color);
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+  padding: 0.75rem 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.navItem:hover {
+  background: var(--body-bg);
+}
+
+.navImage {
+  height: 2.25rem;
+  width: auto;
+  margin: 0 0.5rem;
+}
+
+.navList>.navItem:hover a {
+  color: var(--primary);
+}
+
+.navList .navItem:hover .dropdown li {
+  color: inherit;
+  padding: 1.5rem 1rem;
+  margin: 0 1rem;
+}
+
+.navList .navItem:hover .dropdown a {
+  color: inherit;
+  padding: 0;
+}
+
+.navList .navItem:hover .dropdown a:hover {
+  color: var(--primary);
+  padding: 0;
+}
+
+.dropdown {
+  display: none;
+  background: var(--body-bg);
+  width: 15rem;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.navItem:hover .dropdown {
+  display: block;
+}
+
+@media screen and (min-width: 1280px) {
+  .navItem a {
+    padding: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 1560px) {
+  .navItem {
+    padding: 0 1rem;
+  }
+
+  .navItem a {
+    font-size: 16px;
+    padding: 0.75rem 1rem;
+  }
+}

@@ -1,0 +1,152 @@
+.header {
+  width: 100%;
+  height: var(--header-height);
+  background: var(--primary);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logoImage {
+  width: 100px;
+  height: auto;
+  margin-left: 1.5rem;
+}
+
+.mobileMenu .navContainer {
+  display: none;
+}
+
+.mobileMenu.open .navContainer {
+  display: block;
+  z-index: 20;
+}
+
+.burger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  color: var(--main-nav-color);
+  font-size: 2rem;
+  height: var(--header-height);
+}
+
+.burger svg {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.burger:hover {
+  background: transparent;
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.burger.open {
+  transform: rotate(90deg);
+  background: var(--secondary);
+  color: var(--primary);
+  width: var(--header-height);
+  height: var(--header-height);
+  padding: 0;
+}
+
+a.open {
+  color: var(--primary);
+}
+
+.navContainer {
+  background: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: var(--header-height);
+  right: 0;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 300px;
+  padding: 0 1rem;
+}
+
+.firstList {
+  text-transform: uppercase;
+}
+
+.firstList .dropdownList {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dropdownList:has(.open) {
+  border: unset
+}
+
+.secondList {
+  margin: 1rem 0;
+}
+
+.secondList .dropdownList a {
+  padding: 0.75rem;
+}
+
+.dropdownItem a {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.dropdownIcon {
+  margin: 0 0.25rem;
+}
+
+.dropdownList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-color);
+  font-weight: 500;
+  position: relative;
+}
+
+.secondList .dropdownList:last-of-type .dropdownIcon {
+  position: absolute;
+  left: 6rem;
+}
+
+.navImage {
+  height: 2.25rem;
+  width: auto;
+  margin: 0 0.5rem;
+}
+
+.dropdownList a {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  animation: slideIn 0.3s ease-out;
+  display: block;
+}
+
+.switcher {
+  position: absolute;
+  right: 1.25rem;
+  bottom: 1.25rem;
+}
+
+@media screen and (min-width: 480px) {
+  .navContainer {
+    min-width: 400px;
+  }
+}
